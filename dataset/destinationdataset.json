@@ -1,0 +1,19 @@
+{
+	"name": "destinationdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "auxstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "output"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
