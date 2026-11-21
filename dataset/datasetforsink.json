@@ -1,0 +1,17 @@
+{
+	"name": "datasetforsink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsazsqldb",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
