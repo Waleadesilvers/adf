@@ -66,7 +66,7 @@
 									"type": "DelimitedTextSource",
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
-										"recursive": true,
+										"fileListPath": "input",
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
@@ -96,7 +96,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"FileName": {
-											"value": "@item().name",
+											"value": "@item().FileName",
 											"type": "Expression"
 										}
 									}
@@ -108,7 +108,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"tableName": {
-											"value": "@item().name",
+											"value": "@item().TableName",
 											"type": "Expression"
 										}
 									}
