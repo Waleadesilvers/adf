@@ -1,0 +1,12 @@
+{
+	"name": "deletemappedtable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsazsqldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
