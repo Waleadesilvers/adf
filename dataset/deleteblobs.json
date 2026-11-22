@@ -8,6 +8,9 @@
 		"parameters": {
 			"FolderName": {
 				"type": "string"
+			},
+			"ContainerName": {
+				"type": "string"
 			}
 		},
 		"annotations": [],
