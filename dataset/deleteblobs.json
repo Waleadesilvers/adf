@@ -16,7 +16,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"container": {
-					"value": "@dataset().FolderName",
+					"value": "@dataset().ContainerName",
 					"type": "Expression"
 				}
 			}
