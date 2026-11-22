@@ -69,7 +69,7 @@
 									"referenceName": "deleteblobs",
 									"type": "DatasetReference",
 									"parameters": {
-										"FolderName": {
+										"ContainerName": {
 											"value": "@item().foldername",
 											"type": "Expression"
 										}
