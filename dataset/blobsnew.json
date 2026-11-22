@@ -1,0 +1,21 @@
+{
+	"name": "blobsnew",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "auxstorage",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"containerName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation"
+			}
+		}
+	}
+}
